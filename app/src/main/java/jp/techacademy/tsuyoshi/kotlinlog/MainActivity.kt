@@ -17,9 +17,8 @@ class MainActivity : AppCompatActivity() {
 
         val po= Human("テテ", 1,"遊び")
 
-
-        Log.d("kotlintest", "犬の名前は" + po.name + "です。")
-        Log.d("kotlintest", "犬の趣味は" + po.hobby + "です。")
+        po.say()
+        po.think()
 
 
 
