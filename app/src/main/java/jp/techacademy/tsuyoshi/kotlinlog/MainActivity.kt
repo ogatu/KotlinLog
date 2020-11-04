@@ -9,11 +9,11 @@ class MainActivity : AppCompatActivity() {
 
 
 
-        val human=Human("毅", 44,"コード")    // 名前を毅、年齢を44歳、趣味はコードで　humanのインスタンスを作る
+        val human=Human("毅", 44,"コード") // 名前を毅、年齢を44歳、趣味はコードで　humanのインスタンスを作る
 
+        human.say()
+        human.think()
 
-        human.think()// think メソッドの呼び出し
-        human.say()// say メソッドの呼び出し
 
         val po= Human("テテ", 1,"遊び")
 
@@ -29,5 +29,6 @@ class MainActivity : AppCompatActivity() {
 
 
     }
+
 
 
